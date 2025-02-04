@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+/*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size:cover; 
-
+            background-attachment: fixed;*/
             
-           
-        }
+            /* shorthand - backgroud
+                color > image > position > repet >[size] > attchement*/
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
+            }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -39,6 +44,9 @@
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus quasi alias dolores quaerat reiciendis nesciunt repudiandae inventore quidem exercitationem nam possimus nostrum perspiciatis voluptas praesentium odio, doloremque consequatur ducimus quia.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eum excepturi illo placeat asperiores, provident quae alias maiores optio aperiam expedita unde minima sint reiciendis sapiente architecto. Similique, magnam quae?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum exercitationem quod maiores nemo id, magni illo provident ullam dolorem quasi repudiandae dolorum porro velit inventore maxime dolor laborum omnis fugit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum placeat repudiandae quia reprehenderit voluptate assumenda eaque molestiae natus sint est atque, porro possimus soluta quis? Tempora quae cupiditate a est?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia eveniet, quis tempore beatae quod velit facere asperiores placeat dicta eos earum vitae rem obcaecati incidunt magnam necessitatibus sed corrupti repudiandae!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem consequuntur iste dolorum provident earum unde voluptates delectus debitis harum itaque rerum necessitatibus eum minus doloribus neque ut et, error architecto?
         </p>
     </main>
 </body>
